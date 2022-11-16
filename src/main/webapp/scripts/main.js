@@ -1,5 +1,5 @@
 function haeAutot() {
-	let url = "autot"; 
+	let url = "autot?hakusana=" + document.getElementById("hakusana").value; 
 	let requestOptions = {
         method: "GET",
         headers: { "Content-Type": "application/x-www-form-urlencoded" }       
